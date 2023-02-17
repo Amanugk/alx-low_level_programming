@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - A programe that shows the function of printf
  * Return (0)
