@@ -1,15 +1,20 @@
+
 #include "main.h"
 /**
- * _puts - display string
- * @str: param
+ * print_rev - display string reves
+ * @s: param
  */
-void _puts(char *str)
+void print_rev(char *s)
 {
-	while (*str != '\0')
-	{
-		_putchar(*str);
-		str++;
-	}
+	int counter;
 
+	counter = 0;
+	while (s[counter] != '\0')
+		counter++;
+	while (s[counter - 1] != '\0')
+	{
+		_putchar(s[counter - 1]);
+		counter--;
+	}
 	_putchar('\n');
 }
