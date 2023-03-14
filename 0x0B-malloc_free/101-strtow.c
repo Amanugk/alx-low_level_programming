@@ -1,4 +1,5 @@
-nclude <stdlib.h>
+#include "main.h"
+#include <stdlib.h>
 
 int len(char *str);
 int wcount(char *str);
